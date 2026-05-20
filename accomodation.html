@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kwalape Safari Lodge - Accommodation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- ================= HERO SECTION ================= -->
+    <header class="accommodation-hero">
+        <nav>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="Logo.jpeg" alt="Kwalape Safari Lodge Logo">
+                </a>
+            </div>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="accommodation.html" class="active">Accommodation</a></li>
+                <li><a href="activities.html">Activities</a></li>
+                <li><a href="facilities.html">Facilities</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+            </ul>
+
+            <button class="book-btn" onclick="document.getElementById('bookingModal').style.display='block'">
+                Book Now
+            </button>
+        </nav>
+
+        <div class="hero-text">
+            <h2>Luxury • Comfort • Nature</h2>
+            <h1>Our Accommodation</h1>
+            <p>Relax in elegant rooms surrounded by peaceful safari scenery.</p>
+        </div>
+    </header>
+
+    <!-- ================= INTRO SECTION ================= -->
+    <section class="accommodation-intro">
+        <h2>Comfortable Safari Living</h2>
+        <p>Kwalape Safari Lodge offers comfortable, stylish, and relaxing accommodation designed for couples, families, and adventure travelers.</p>
+    </section>
+
+    <!-- ================= ROOM SECTION ================= -->
+    <section class="accommodation-section">
+
+        <!-- Standard Room -->
+        <div class="room-card">
+            <img src="standard.webp" alt="Standard Room">
+            <div class="room-info">
+                <h3>Standard Room</h3>
+                <p>Comfortable and affordable rooms ideal for solo travelers and couples.</p>
+                <ul>
+                    <li>Air Conditioning</li>
+                    <li>Private Bathroom</li>
+                    <li>Free Wi-Fi</li>
+                </ul>
+                <p><strong>Price: BWP 850 per night</strong></p>
+                <button class="book-btn" onclick="document.getElementById('bookingModal').style.display='block'">Book Now</button>
+            </div>
+        </div>
+
+        <!-- Deluxe Room -->
+        <div class="room-card">
+            <img src="dulex.jpeg" alt="Deluxe Room">
+            <div class="room-info">
+                <h3>Deluxe Room</h3>
+                <p>Spacious luxury rooms with stunning safari lodge views.</p>
+                <ul>
+                    <li>King Size Bed</li>
+                    <li>Mini Bar</li>
+                    <li>Balcony View</li>
+                </ul>
+                <p><strong>Price: BWP 1,450 per night</strong></p>
+                <button class="book-btn" onclick="document.getElementById('bookingModal').style.display='block'">Book Now</button>
+            </div>
+        </div>
+
+        <!-- Family Room -->
+        <div class="room-card">
+            <img src="family .jpeg" alt="Family Room">
+            <div class="room-info">
+                <h3>Family Room</h3>
+                <p>Spacious family rooms designed for comfort and memorable stays.</p>
+                <ul>
+                    <li>Large Living Space</li>
+                    <li>2 Queen Beds</li>
+                    <li>Pool Access</li>
+                </ul>
+                <p><strong>Price: BWP 2,200 per night</strong></p>
+                <button class="book-btn" onclick="document.getElementById('bookingModal').style.display='block'">Book Now</button>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- ================= BOOKING MODAL ================= -->
+    <div id="bookingModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="document.getElementById('bookingModal').style.display='none'">&times;</span>
+            <h2>Room Booking Form</h2>
+            <form>
+                <label>Full Name</label>
+                <input type="text" placeholder="Enter your name" required>
+
+                <label>Email Address</label>
+                <input type="email" placeholder="Enter your email" required>
+
+                <label>Phone Number</label>
+                <input type="tel" placeholder="Enter phone number" required>
+
+                <label>Check-In Date</label>
+                <input type="date" required>
+
+                <label>Check-Out Date</label>
+                <input type="date" required>
+
+                <label>Room Type</label>
+                <select required>
+                    <option value="">-- Select Room Type --</option>
+                    <option value="standard">Standard Room</option>
+                    <option value="deluxe">Deluxe Room</option>
+                    <option value="family">Family Room</option>
+                </select>
+
+                <label>Number of Guests</label>
+                <input type="number" min="1" max="10" required>
+
+                <label>Special Requests</label>
+                <textarea rows="5" placeholder="Any special requests..."></textarea>
+
+                <button type="submit" class="book-btn">Confirm Booking</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <a href="index.html">
+                    <img src="Logo.jpeg" alt="Kwalape Safari Lodge Logo">
+                </a>
+            </div>
+
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="accommodation.html">Accommodation</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p>+267 625 0171</p>
+                <p>info@kwalapelodge.com</p>
+                <p>Kasane, Botswana</p>
+            </div>
+
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                
+                <a href="https://www.facebook.com/kwalapesafarilodge" target="_blank">
+    <i class="fab fa-facebook-f"></i>
+  </a>
+  <a href="https://www.instagram.com/kwalapesafarilodge" target="_blank">
+    <i class="fab fa-instagram"></i>
+  </a>
+  <a href="https://twitter.com/kwalapelodge" target="_blank">
+    <i class="fab fa-twitter"></i>
+  </a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 Kwalape Safari Lodge. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

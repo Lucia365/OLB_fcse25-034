@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Kwalape Safari Lodge - about</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+
+<body>
+
+    <!-- ================= HERO SECTION ================= -->
+
+<header class="about-hero">
+
+    <!-- NAVIGATION -->
+
+    <nav>
+
+        <div class="logo">
+
+            <a href="index.html">
+
+                <img src="Logo.jpeg"
+                alt="Kwalape Safari Lodge Logo">
+
+            </a>
+
+        </div>
+
+        <ul>
+
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="about.html">About</a></li>
+
+            <li><a href="accomodation.html">Accommodation</a></li>
+
+            <li><a href="activities.html">Activities</a></li>
+
+            <li><a href="facilities.html">Facilities</a></li>
+
+            <li><a href="contact.html">Contact</a></li>
+
+            <li><a href="feedback.html">Feedback</a></li>
+
+        </ul>
+
+        <button class="book-btn"
+        onclick="document.getElementById('bookingModal').style.display='block'">
+
+        Book Now
+
+        </button>
+
+    </nav>
+
+    <!-- HERO TEXT -->
+
+    <div class="hero-text">
+
+        <h2>Luxury • Comfort • Nature</h2>
+
+        <h1>About<br>Kwalape Lodge</h1>
+
+        <p>
+            Discover comfort, wildlife adventures
+            and unforgettable safari experiences
+            in Botswana.
+        </p>
+
+    </div>
+
+</header>
+
+    <!-- ================= ABOUT SECTION ================= -->
+
+    <section class="about-main">
+
+        <div class="about-image">
+
+            <img src="Elephant.jpg" alt="Safari Image">
+
+        </div>
+
+        <div class="about-content">
+
+            <h2>WELCOME TO KWALAPE SAFARI LODGE</h2>
+
+            <p>
+                Kwalape Safari Lodge was established in 1999
+                in Botswana and has grown into one of the
+                most welcoming safari destinations near
+                Chobe National Park.
+            </p>
+
+            <p>
+                Our lodge provides affordable accommodation,
+                relaxing facilities and exciting safari
+                experiences for both local and international
+                tourists.
+            </p>
+
+            <p>
+                Whether you are looking for peaceful
+                relaxation, wildlife adventures or cultural
+                experiences, Kwalape Safari Lodge offers
+                comfort and unforgettable memories.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- ================= VISION & MISSION ================= -->
+
+    <section class="vision-mission">
+
+        <div class="box">
+
+            <h2>OUR VISION</h2>
+
+            <p>
+                To become Botswana’s leading safari lodge
+                known for comfort, hospitality and
+                unforgettable wildlife experiences.
+            </p>
+
+        </div>
+
+        <div class="box">
+
+            <h2>OUR MISSION</h2>
+
+            <p>
+                To provide quality accommodation, excellent
+                customer service and affordable safari
+                experiences while promoting tourism and
+                environmental conservation.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- ================= WHY CHOOSE US ================= -->
+
+    <section class="why-us">
+
+        <h2>WHY CHOOSE US?</h2>
+
+        <div class="reasons">
+
+            <div class="reason-card">
+
+                <i class="fas fa-bed"></i>
+
+                <h3>Comfortable Rooms</h3>
+
+                <p>
+                    Enjoy clean and relaxing rooms designed
+                    for maximum comfort.
+                </p>
+
+            </div>
+
+            <div class="reason-card">
+
+                <i class="fas fa-paw"></i>
+
+                <h3>Safari Adventures</h3>
+
+                <p>
+                    Experience exciting wildlife tours and
+                    game drives in Botswana.
+                </p>
+
+            </div>
+
+            <div class="reason-card">
+
+                <i class="fas fa-utensils"></i>
+
+                <h3>Excellent Facilities</h3>
+
+                <p>
+                    Enjoy delicious meals, swimming pools
+                    and quality customer service.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= BOOKING MODAL ================= -->
+
+<!-- ================= BOOKING MODAL ================= -->
+<book me >
+    <div id="bookingModal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="document.getElementById('bookingModal').style.display='none'">&times;</span>
+    <h2>Room Booking Form</h2>
+    <form action="submit_booking.php" method="post">
+      
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="checkin">Check-in Date:</label>
+      <input type="date" id="checkin" name="checkin" required>
+
+      <label for="checkout">Check-out Date:</label>
+      <input type="date" id="checkout" name="checkout" required>
+
+      <label for="room">Room Type:</label>
+      <select id="room" name="room" required>
+        <option value="standard">Standard Room</option>
+        <option value="deluxe">Deluxe Room</option>
+        <option value="family">Family Room</option>
+      </select>
+<button type="submit" class="btn">Confirm Booking</button>
+    </form>
+  </div>
+</div>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="footer-container">
+
+            <div class="footer-logo">
+                  <a href="index.html">
+                <img src="Logo.jpeg" alt="Logo">
+
+            </div>
+
+            <div class="footer-links">
+
+                <h3>Quick Links</h3>
+
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="activities.html">Activities</a>
+                <a href="contact.html">Contact</a>
+
+            </div>
+
+            <div class="footer-contact">
+
+                <h3>Contact Us</h3>
+
+                <p>+267 625 0171</p>
+
+                <p>info@kwalapelodge.com</p>
+
+                <p>Kasane, Botswana</p>
+
+            </div>
+
+            <div class="footer-social">
+
+                <h3>Follow Us</h3>
+
+                <a href="https://www.facebook.com/kwalapesafarilodge" target="_blank">
+    <i class="fab fa-facebook-f"></i>
+  </a>
+  <a href="https://www.instagram.com/kwalapesafarilodge" target="_blank">
+    <i class="fab fa-instagram"></i>
+  </a>
+  <a href="https://twitter.com/kwalapelodge" target="_blank">
+    <i class="fab fa-twitter"></i>
+  </a>
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 Kwalape Safari Lodge.
+                All Rights Reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>

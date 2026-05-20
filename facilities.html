@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kwalape Safari Lodge - Facilities</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- ================= HERO SECTION ================= -->
+    <header class="facilities-hero">
+        <nav>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="Logo.jpeg" alt="Kwalape Safari Lodge Logo">
+                </a>
+            </div>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="accommodation.html">Accommodation</a></li>
+                <li><a href="activities.html">Activities</a></li>
+                <li><a href="facilities.html" class="active">Facilities</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+            </ul>
+
+            <button class="book-btn" onclick="document.getElementById('bookingModal').style.display='block'">
+                Book Now
+            </button>
+        </nav>
+
+        <div class="hero-text">
+            <h2>Comfort • Relaxation • Adventure</h2>
+            <h1>Our Facilities</h1>
+            <p>Experience comfort, convenience, and unforgettable safari hospitality.</p>
+        </div>
+    </header>
+
+    <!-- ================= FACILITIES INTRO ================= -->
+    <section class="facilities-intro">
+        <h2>Kwalape Safari Lodge Facilities</h2>
+        <p>Kwalape Safari Lodge offers modern facilities designed to provide comfort and relaxation for both local and international visitors.</p>
+    </section>
+
+    <!-- ================= FACILITY CARDS ================= -->
+    <section class="facilities-section">
+
+        <div class="facility-card">
+            <img src="Pool.jpeg" alt="Swimming Pool">
+            <div class="facility-content">
+                <i class="fas fa-water-ladder"></i>
+                <h3>Swimming Pool</h3>
+                <p>Large outdoor swimming pool perfect for relaxation and leisure.</p>
+            </div>
+        </div>
+
+        <div class="facility-card">
+            <img src="lamp.jpg" alt="Luxury Rooms">
+            <div class="facility-content">
+                <i class="fas fa-bed"></i>
+                <h3>Luxury Rooms</h3>
+                <p>Comfortable rooms with air conditioning, satellite television, and private verandas.</p>
+            </div>
+        </div>
+
+        <div class="facility-card">
+            <img src="car.jpg" alt="Safari Experience">
+            <div class="facility-content">
+                <i class="fas fa-car"></i>
+                <h3>Safari Experience</h3>
+                <p>Enjoy exciting safari adventures and outdoor exploration activities.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- ================= BOOKING MODAL ================= -->
+    <div id="bookingModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="document.getElementById('bookingModal').style.display='none'">&times;</span>
+            <h2>Room Booking Form</h2>
+            <form>
+                <label>Full Name</label>
+                <input type="text" placeholder="Enter your name" required>
+
+                <label>Email Address</label>
+                <input type="email" placeholder="Enter your email" required>
+
+                <label>Check-In Date</label>
+                <input type="date" required>
+
+                <label>Check-Out Date</label>
+                <input type="date" required>
+
+                <label>Room Type</label>
+                <select required>
+                    <option value="">-- Select Room Type --</option>
+                    <option value="standard">Standard Room</option>
+                    <option value="deluxe">Deluxe Room</option>
+                    <option value="family">Family Room</option>
+                </select>
+
+                <button type="submit" class="book-btn">Confirm Booking</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <a href="index.html">
+                    <img src="Logo.jpeg" alt="Kwalape Safari Lodge Logo">
+                </a>
+            </div>
+
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="accommodation.html">Accommodation</a>
+                <a href="facilities.html">Facilities</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p>+267 625 0171</p>
+                <p>info@kwalapelodge.com</p>
+                <p>Kasane, Botswana</p>
+            </div>
+
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                
+                <a href="https://www.facebook.com/kwalapesafarilodge" target="_blank">
+    <i class="fab fa-facebook-f"></i>
+  </a>
+  <a href="https://www.instagram.com/kwalapesafarilodge" target="_blank">
+    <i class="fab fa-instagram"></i>
+  </a>
+  <a href="https://twitter.com/kwalapelodge" target="_blank">
+    <i class="fab fa-twitter"></i>
+  </a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 Kwalape Safari Lodge. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
