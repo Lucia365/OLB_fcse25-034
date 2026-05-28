@@ -12,7 +12,7 @@ body{
 
 
 
-/* ================= HEADER ================= */
+/*  HEADER  */
 
 .hero{
     height:80vh;
@@ -34,7 +34,7 @@ body{
   align-items:center; 
   padding:20px 50px; }
 
-/* ================= NAVIGATION ================= */
+/* NAVIGATION  */
 
 nav{
     display:flex;
@@ -86,7 +86,7 @@ nav ul li a:hover{
     background:#d4ac0d;
 }
 
-/* ================= HERO TEXT ================= */
+/*  HERO TEXT  */
 
 .hero-text{
     margin-left:70px;
@@ -112,7 +112,7 @@ nav ul li a:hover{
     line-height:1.5;
 }
 
-/* ================= ABOUT SECTION ================= */
+/* ABOUT SECTION  */
 
 .about-section{
     display:flex;
@@ -150,7 +150,7 @@ nav ul li a:hover{
     border-radius:10px;
 }
 
-/* ================= GALLERY ================= */
+/* GALLERY  */
 
 .gallery-section{
     padding:60px;
@@ -187,7 +187,7 @@ nav ul li a:hover{
     transform:scale(1.05);
 }
 
-/* ================= CARDS ================= */
+/* CARDS  */
 
 .cards-section{
     display:flex;
@@ -259,7 +259,7 @@ nav ul li a:hover{
     background:#d4ac0d;
 }
 
-/* ================= FOOTER ================= */
+/* FOOTER  */
 
 footer{
     background:#1e5631;
@@ -316,7 +316,7 @@ footer{
     padding:20px;
 }
 
-/* ================= RESPONSIVE ================= */
+/* RESPONSIVE  */
 
 @media(max-width:900px){
 
@@ -351,7 +351,7 @@ footer{
         gap:30px;
     }
 }
-/* ================= ABOUT HERO ================= */
+/* ABOUT HERO  */
 
 .about-hero{
     height:80vh;
@@ -367,7 +367,7 @@ footer{
     color:white;
 }
 
-/* ================= HERO TEXT ================= */
+/* HERO TEXT  */
 
 .hero-text{
     margin-left:70px;
@@ -398,13 +398,13 @@ footer{
     line-height:1.6;
 }
 
-/* ================= ACTIVE PAGE ================= */
+/*  ACTIVE PAGE  */
 
 .active{
     color:#f1c40f;
 }
 
-/* ================= RESPONSIVE ================= */
+/*  RESPONSIVE  */
 
 @media(max-width:900px){
 
@@ -427,7 +427,7 @@ footer{
     }
 }
 
-/* ================= ABOUT MAIN ================= */
+/*ABOUT MAIN */
 
 .about-main{
     display:flex;
@@ -462,7 +462,7 @@ footer{
     margin-bottom:20px;
 }
 
-/* ================= VISION MISSION ================= */
+/* VISION MISSION*/
 
 .vision-mission{
     display:flex;
@@ -497,7 +497,7 @@ footer{
     line-height:1.7;
 }
 
-/* ================= WHY US ================= */
+/*  WHY US  */
 
 .why-us{
     padding:60px;
@@ -547,7 +547,7 @@ footer{
     line-height:1.6;
 }
 
-/* ================= RESPONSIVE ================= */
+/* RESPONSIVE */
 
 @media(max-width:900px){
 
@@ -573,7 +573,7 @@ footer{
 }
 
 
-/* ================= HEADER ================= */
+/* HEADER */
 
 header{
   background: linear-gradient(rgba(0,0,0,0.5),
@@ -608,7 +608,7 @@ header{
   font-size: 18px;
 }
 
-/* ================= NAVIGATION ================= */
+/* NAVIGATION  */
 
 nav{
   display: flex;
@@ -633,7 +633,7 @@ nav a:hover{
 }
 
 
-/* ================= ACCOMMODATION ================= */
+/*ACCOMMODATION  */
 
 .accommodation-section{
   padding: 60px 40px;
@@ -711,7 +711,7 @@ nav a:hover{
   color: #2c3e50;
 }
 
-/* ================= FOOTER ================= */
+/*FOOTER*/
 
 footer{
     background:#1e5631;
@@ -767,7 +767,7 @@ footer{
 
     padding:20px;
 }
-/* ================= RESPONSIVE ================= */
+/* RESPONSIVE*/
 
 @media(max-width: 768px){
 
@@ -797,7 +797,7 @@ footer{
 
 }
 
-/* ================= CONTACT HERO ================= */
+/*CONTACT HERO */
 
 .contact-hero{
     height:80vh;
@@ -814,7 +814,7 @@ footer{
 }
 
 
-/* ================= CONTACT SECTION ================= */
+/* CONTACT SECTION */
 
 .contact-section{
     padding:80px 60px;
@@ -859,7 +859,7 @@ footer{
     margin-bottom:10px;
 }
 
-/* ================= FORM ================= */
+/*  FORM */
 
 .contact-form form{
     background:white;
@@ -912,7 +912,7 @@ footer{
     color:black;
 }
 
-/* ================= MAP ================= */
+/* MAP*/
 
 .map-section{
     padding:80px 60px;
@@ -930,7 +930,7 @@ footer{
     border-radius:10px;
 }
 
-/* ================= MODAL ================= */
+/* MODAL */
 
 .modal{
     display:none;
@@ -973,7 +973,7 @@ footer{
     cursor:pointer;
 }
 
-/* ================= FACLITIES HERO ================= */
+/*  FACLITIES HERO  */
 
 .facilities-hero{
     height:80vh;
@@ -990,7 +990,7 @@ footer{
 }
 
 
-/* ====================FACILITIES==================*/
+/* FACILITIES*/
 .facilities-intro{
     text-align:center;
     padding:80px 60px 40px;
@@ -1009,7 +1009,7 @@ footer{
     margin:auto;
 }
 
-/* ================= FACILITIES SECTION ================= */
+/*FACILITIES SECTION*/
 
 .facilities-section{
     display:grid;
@@ -1070,7 +1070,7 @@ footer{
     height: 70vh;
 }
 
-/* ================= SERVICES ================= */
+/* SERVICES*/
 
 .services-section{
     padding:80px 60px;
@@ -1119,7 +1119,7 @@ footer{
     font-size:24px;
 }
 
-/* ================= RESPONSIVE ================= */
+/* RESPONSIVE */
 
 @media(max-width:900px){
 
@@ -1133,7 +1133,7 @@ footer{
     }
 }
 
-/* ================= ACTIVITIES HERO ================= */
+/*ACTIVITIES HERO*/
 
 .activities-hero{
     height:80vh;
@@ -1149,7 +1149,7 @@ footer{
     color:white;
 }
 
-/* ================= ACTIVITIES INTRO ================= */
+/* ACTIVITIES INTRO */
 
 .activities-intro{
     text-align:center;
@@ -1170,7 +1170,7 @@ footer{
     margin:auto;
 }
 
-/* ================= ACTIVITIES SECTION ================= */
+/* ACTIVITIES SECTION */
 
 .activities-section{
     display:grid;
@@ -1183,7 +1183,7 @@ footer{
     padding:40px 60px 80px;
 }
 
-/* ================= ACTIVITY CARD ================= */
+/*  ACTIVITY CARD*/
 
 .activity-card{
     background:white;
@@ -1230,7 +1230,7 @@ footer{
     line-height:1.7;
 }
 
-/* ================= RESPONSIVE ================= */
+/* RESPONSIVE */
 
 @media(max-width:900px){
 
@@ -1247,7 +1247,7 @@ footer{
     }
 }
 
-/* ================= ACCOMMODATION HERO ================= */
+/* ACCOMMODATION HERO */
 
 .accommodation-hero{
     height:80vh;
@@ -1263,7 +1263,7 @@ footer{
     color:white;
 }
 
-/* ================= ACCOMMODATION INTRO ================= */
+/* ACCOMMODATION INTRO */
 
 .accommodation-intro{
     text-align:center;
@@ -1284,7 +1284,7 @@ footer{
     margin:auto;
 }
 
-/* ================= ACCOMMODATION SECTION ================= */
+/*  ACCOMMODATION SECTION  */
 
 .accommodation-section{
     display:grid;
@@ -1299,7 +1299,7 @@ footer{
     background:#f8f8f8;
 }
 
-/* ================= ROOM CARD ================= */
+/* ROOM CARD  */
 
 .room-card{
     background:white;
@@ -1350,7 +1350,7 @@ footer{
     font-size:18px;
 }
 
-/* ================= RESPONSIVE ================= */
+/* RESPONSIVE  */
 
 @media(max-width:900px){
 
@@ -1367,7 +1367,7 @@ footer{
     }
 }
 
-/* ================= FEEDBACK HERO ================= */
+/* FEEDBACK HERO  */
 
 .feedback-hero{
     height:80vh;
@@ -1383,7 +1383,7 @@ footer{
     color:white;
 }
 
-/* ================= FEEDBACK TITLE ================= */
+/*  FEEDBACK TITLE */
 
 .feedback-title{
     font-size:50px;
@@ -1391,7 +1391,7 @@ footer{
     font-weight:bold;
 }
 
-/* ================= TESTIMONIAL CARD ================= */
+/* TESTIMONIAL CARD */
 
 .testimonial-card{
     background:white;
@@ -1428,7 +1428,7 @@ footer{
     font-weight:bold;
 }
 
-/* ================= FEEDBACK FORM ================= */
+/*  FEEDBACK FORM */
 
 .feedback-form{
     max-width:750px;
@@ -1450,7 +1450,7 @@ footer{
     font-weight:bold;
 }
 
-/* ================= RESPONSIVE ================= */
+/*  RESPONSIVE */
 
 @media(max-width:900px){
 
@@ -1467,7 +1467,7 @@ footer{
     }
 }
 
-/* ================= BOOKING MODAL ================= */
+/* BOOKING MODAL */
 
 .modal{
     display:none;
@@ -1574,7 +1574,7 @@ footer{
     color:black;
 }
 
-/* ================= RESPONSIVE ================= */
+/*  RESPONSIVE  */
 
 @media(max-width:900px){
 
